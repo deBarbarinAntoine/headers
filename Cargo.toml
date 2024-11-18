@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-error-chain = "0.12.4"
+clap = "4.5.21"
 console = "0.15.8"
-tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros"] }
+error-chain = "0.12.4"
+http = "1.1.0"
 reqwest = "0.12.9"
+tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros"] }
