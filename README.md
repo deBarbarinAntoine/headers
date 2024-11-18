@@ -8,7 +8,7 @@ So, pretty simple, you run it indicating the `URL` as argument, and it should gi
 
 Here are some examples:
 
-- `headers -T rust-lang.com`:
+- `headers -T rust-lang.org`:
 
     ![img.png](img.png)
 
