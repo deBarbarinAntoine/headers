@@ -18,16 +18,17 @@ error_chain! {
 #[tokio::main]
 async fn main() {
     let normal_style = Style::new().bold().blue();
-    let author_style = Style::new().bold().cyan();
+    let highlight_style = Style::new().bold().cyan();
 
     let matches = Command::new("headers")
         .about(format!(
                 "{}\n{} {}{}",
                 normal_style.apply_to("A simple CLI tool to retrieve HTTP headers."),
                 normal_style.apply_to("Made in Rust by"),
-                author_style.apply_to("Antoine de Barbarin"),
+                highlight_style.apply_to("Antoine de Barbarin"),
                 normal_style.apply_to(".")
                 ))
+        .version(env!("CARGO_PKG_VERSION"))
         .arg(
             // Only required argument: the URL to send the request to
             Arg::new("url")
