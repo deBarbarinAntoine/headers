@@ -10,7 +10,7 @@ Here are some examples:
 
 - `headers -T rust-lang.com`:
 
-    ![img_1.png](img_1.png)
+    ![img.png](img.png)
 
 - `headers -h`:
 
