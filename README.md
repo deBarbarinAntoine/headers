@@ -14,7 +14,7 @@ Here are some examples:
 
 - `headers -h`:
 
-    ![img.png](img.png)
+    ![img_2.png](img_2.png)![img.png](img.png)
 
 Enjoy!
 
