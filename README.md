@@ -6,9 +6,15 @@ instead of making an App that gives the mean of a list of numbers or greets a us
 
 So, pretty simple, you run it indicating the `URL` as argument, and it should give you the headers: simple and stupid.
 
-Here is an example:
+Here are some examples:
 
-![img.png](run_example.png)
+- `headers -T rust-lang.com`:
+
+    ![img_1.png](img_1.png)
+
+- `headers -h`:
+
+    ![img.png](img.png)
 
 Enjoy!
 
